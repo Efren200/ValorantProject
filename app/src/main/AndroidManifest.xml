@@ -44,6 +44,7 @@
         <activity
             android:name=".ui.themes.VideoActivity"
             android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="landscape"
             android:exported="true" />
         <activity
             android:name=".ui.themes.SkinsActivity"
