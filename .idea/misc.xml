@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/drawable/background_splash.xml" value="0.44166666666666665" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/drawable/fondo_agente_img.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/drawable/fondo_titulo.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.37916666666666665" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/drawable/ic_usuario.xml" value="0.44166666666666665" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/drawable/side_nav_bar.xml" value="0.29259259259259257" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/activity_agente.xml" value="0.22" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/activity_bundles.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/activity_mapa.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/activity_skins.xml" value="0.1" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/activity_splash.xml" value="0.40942028985507245" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/activity_stats.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/activity_usuario.xml" value="0.41394927536231885" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/activity_video_skin.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/app_bar_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/content_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/dialog_cromas.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_agentes.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_armas.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_bundles.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_contratos.xml" value="0.14629629629629629" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_gallery.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_home.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_mapas.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_objetos_usuario.xml" value="0.15185185185185185" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_skins.xml" value="0.1" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_slideshow.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_sprays.xml" value="0.41757246376811596" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_tarjetas.xml" value="0.1" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_themes.xml" value="0.1" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_titulos.xml" value="0.41757246376811596" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/fragment_usuario.xml" value="0.22" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/item_list_agentes.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/item_list_armas.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/item_list_mapas.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/item_list_skins.xml" value="0.22" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/item_list_tarjeta.xml" value="0.13095238095238096" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/item_list_tarjetas.xml" value="0.22" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/item_list_theme.xml" value="0.1" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/item_list_titulos.xml" value="0.22" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/item_tarjeta_database.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/item_titulo_database.xml" value="0.22" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/nav_header_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/layout/view_habilidad.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/menu/activity_main_drawer.xml" value="0.42552083333333335" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/menu/main.xml" value="0.42552083333333335" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/menu/menu_navigation.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/menu/menu_navigation_objetos.xml" value="0.42552083333333335" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.44166666666666665" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/ValorantProjectFinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.37916666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_agentes"
+            android:icon="@drawable/icono"
+            android:title="Agentes" />
+        <item
+            android:id="@+id/nav_armas"
+            android:icon="@drawable/icono"
+            android:title="Armas" />
+        <item
+            android:id="@+id/nav_skins"
+            android:icon="@drawable/icono"
+            android:title="Skins" />
+        <item
+            android:id="@+id/nav_tarjetas"
+            android:icon="@drawable/icono"
+            android:title="Tarjetas" />
+        <item
+            android:id="@+id/nav_titulos"
+            android:icon="@drawable/icono"
+            android:title="Titulos" />
+
+        <item
+            android:id="@+id/nav_usuario"
+            android:icon="@drawable/icono"
+            android:title="Usuario" />
+    </group>
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvTitulos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/rojoValorant"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+
+            <TextView
+                android:id="@+id/lblNombreTitulo"
+                android:layout_width="213dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textColor="@color/oscuroValorant"
+                android:textSize="20dp"
+                android:textStyle="normal|bold" />
+
+            <ImageButton
+                android:id="@+id/botonguardaTitulo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:backgroundTint="@color/rojoValorant"
+                android:src="@drawable/guardar" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

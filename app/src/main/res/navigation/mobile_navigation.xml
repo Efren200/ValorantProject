@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_armas">
+
+    <fragment
+        android:id="@+id/nav_armas"
+        android:name="com.efpaga.valorantprojectfinal.ui.armas.ArmasFragment"
+        android:label="Armas"
+        tools:layout="@layout/fragment_armas" />
+
+    <fragment
+        android:id="@+id/nav_agentes"
+        android:name="com.efpaga.valorantprojectfinal.ui.agentes.AgentesFragment"
+        android:label="Agentes"
+        tools:layout="@layout/fragment_agentes" />
+
+    <fragment
+        android:id="@+id/nav_skins"
+        android:name="com.efpaga.valorantprojectfinal.ui.themes.ThemesFragment"
+        android:label="Skins"
+        tools:layout="@layout/fragment_themes" />
+
+    <fragment
+        android:id="@+id/nav_tarjetas"
+        android:name="com.efpaga.valorantprojectfinal.ui.tarjetas.TarjetasFragment"
+        android:label="Tarjetas"
+        tools:layout="@layout/fragment_tarjetas" />
+    <fragment
+        android:id="@+id/nav_titulos"
+        android:name="com.efpaga.valorantprojectfinal.ui.titulos.TitulosFragment"
+        android:label="Titulos"
+        tools:layout="@layout/fragment_titulos" />
+
+    <fragment
+        android:id="@+id/nav_usuario"
+        android:name="com.efpaga.valorantprojectfinal.ui.usuario.UsuarioFragment"
+        android:label="Usuario"
+        tools:layout="@layout/fragment_usuario" />
+</navigation>

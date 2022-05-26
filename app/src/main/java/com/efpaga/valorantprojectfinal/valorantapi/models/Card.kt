@@ -1,0 +1,14 @@
+package com.efpaga.valorantprojectfinal.valorantapi.models
+
+import java.io.Serializable
+
+class Card(
+    val uuid: String,
+    val displayName: String,
+    val isHiddenIfNotOwner: Boolean,
+    val displayIcon: String,
+    val smallArt: String,
+    val wideArt: String,
+    val largeArt: String,
+    val assetPath: String
+): Serializable
