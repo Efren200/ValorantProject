@@ -8,7 +8,6 @@ import androidx.room.PrimaryKey;
 //Clase tarjeta, compuesta por cuatro columnas
 @Entity
 public class Tarjeta {
-
     //Ponemos PrimaryKey para indicarle a la base de datos room que es la clave primaria
     @PrimaryKey
     @NonNull public String id;

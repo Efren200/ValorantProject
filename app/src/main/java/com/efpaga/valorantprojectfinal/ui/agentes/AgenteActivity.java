@@ -120,7 +120,6 @@ public class AgenteActivity extends AppCompatActivity {
 
         mediaPlayer = new MediaPlayer();
         mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
-
         mediaPlayer.setDataSource(url);
         mediaPlayer.prepare();
         mediaPlayer.start();

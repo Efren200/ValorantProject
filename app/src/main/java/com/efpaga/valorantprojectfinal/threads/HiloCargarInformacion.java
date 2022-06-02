@@ -20,13 +20,10 @@ import java.util.Set;
 //Este hilo esta pensado para que en el main mientras cargue la aplicacion, este se ejecute fuera del hilo principal
 //cargando todos los datos de la api dentro de la app, para que no haya congelamientos en la app.
 public class HiloCargarInformacion extends Thread{
-
-
-    //Creamos un total de 5 arrays donde cargaremos los datos y un objeto ValorantApi que es la que contiene todos los metodos para cargar los datos.
+    //Creamos los arrays donde cargaremos los datos y un objeto ValorantApi que
+    //es la que contiene todos los metodos para cargar los datos.
     private Agent[] listaAgentes;
     private Weapon[] listaArmas;
-    private WeaponSkin[] listaSkins;
-    private ValorantMap[] listaMapas;
     private Card[] listaTarjetas;
     private Title[] listaTitulos;
     private ValorantApi valorantApi = new ValorantApi();
@@ -34,20 +31,17 @@ public class HiloCargarInformacion extends Thread{
     private List<Theme> arrayListThemesValida = new ArrayList<>();
     private Theme[] listaThemesValida;
     private ContentTier[] listContentTiers;
-
-
-    //Dentro del metodo run vamos a llenar cada uno de los arrays con sus objetos correspondientes.
+    //Dentro del metodo run vamos a llenar cada uno de los arrays
+    // con sus objetos correspondientes.
     @Override
     public void run() {
-
         listaAgentes = valorantApi.getAgents().getData();
         listaArmas = valorantApi.getWeapons().getData();
-        listaMapas = valorantApi.getMaps().getData();
         listaTarjetas = valorantApi.getCards().getData();
         listaTitulos = valorantApi.getTitles().getData();
         listContentTiers = valorantApi.getContentTiers().getData();
         listaTheme = valorantApi.getThemes().getData();
-
+        //Esto sirve para poder arreglarme una lista necesaria para la aplicación
         for (Weapon weapon: listaArmas){
             for(WeaponSkin skin : weapon.getSkins()){
                 for(Theme theme: listaTheme){
@@ -65,27 +59,15 @@ public class HiloCargarInformacion extends Thread{
 
     //Generamos geters de cada uno de los arrays para poder recuperar la informacion dentro de la aplicacion.
     public Agent[] getAgents(){
-
         return listaAgentes;
     }
-
     public Weapon[] getWeapons(){
-
         return listaArmas;
     }
-
-    public ValorantMap[] getMaps(){
-
-        return listaMapas;
-    }
-
     public Card[] getTarjetas(){
-
         return listaTarjetas;
     }
-
     public Title[] getTitulos(){
-
         return listaTitulos;
     }
 

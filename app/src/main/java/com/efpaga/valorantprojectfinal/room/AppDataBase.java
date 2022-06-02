@@ -8,8 +8,8 @@ import androidx.room.RoomDatabase;
         Tarjeta.class, Titulo.class
 },
         version = 1)
-
-//Clase AppDataBase que extiende de room con un contructor para poder acceder a las peticiones de la base de datos
+//Clase AppDataBase que extiende de room con un contructor para poder
+// acceder a las peticiones de la base de datos
 public abstract class AppDataBase extends RoomDatabase {
     public abstract UsuarioDao userDao();
 }

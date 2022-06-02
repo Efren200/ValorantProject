@@ -17,7 +17,6 @@ public class HiloInsertarTitulo extends Thread{
 
     @Override
     public void run() {
-
         db.userDao().insertTitulo(titulo);
     }
 }

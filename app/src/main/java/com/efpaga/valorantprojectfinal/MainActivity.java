@@ -8,7 +8,6 @@ import android.view.Menu;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.efpaga.valorantprojectfinal.room.AppDataBase;
 import com.efpaga.valorantprojectfinal.threads.HIloRecuperaTarjetaTitulo;
 import com.efpaga.valorantprojectfinal.threads.HiloCargarInformacion;
 import com.google.android.material.navigation.NavigationView;
@@ -19,7 +18,6 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.room.Room;
 
 import com.efpaga.valorantprojectfinal.databinding.ActivityMainBinding;
 import com.squareup.picasso.Picasso;
@@ -29,17 +27,11 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
     private NavigationView navigationViewNombre;
-
     public static HiloCargarInformacion hiloCargarInformacion;
-    public static HIloRecuperaTarjetaTitulo recuperaTarjetaTitulo;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        //Cargamos toda la informacion cuando se accede a esta, para que tengamos todos los datos
         hiloCargarInformacion = new HiloCargarInformacion();
         hiloCargarInformacion.start();
         try {
@@ -85,11 +77,6 @@ public class MainActivity extends AppCompatActivity {
 
             System.out.println("Es nulooo");
         }
-
-
-
-
-
     }
 
     @Override
@@ -105,4 +92,5 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
 }

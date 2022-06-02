@@ -38,7 +38,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="Categoria: Armas Pesadas"
                     android:textAlignment="center"
 
                     android:textColor="@color/white"
@@ -55,7 +54,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="Cargador: 100 balas"
                     android:textColor="@color/white"
                     android:textSize="16dp"
                     android:textStyle="bold" />
@@ -70,7 +68,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="Precio: 3200"
                     android:textColor="@color/white"
                     android:textSize="16dp"
                     android:textStyle="bold" />
@@ -86,7 +83,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="Tiemo de recarga: 5 segundos"
                     android:textColor="@color/white"
                     android:textSize="16dp"
                     android:textStyle="bold" />

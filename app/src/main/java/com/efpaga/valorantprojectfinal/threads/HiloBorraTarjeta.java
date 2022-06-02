@@ -18,7 +18,6 @@ public class HiloBorraTarjeta extends Thread{
     //En el metodo run ejecutaremos la funcion de delete tarjeta para eliminarla de la base de datos.
     @Override
     public void run() {
-
         db.userDao().deleteTarjeta(tarjeta);
     }
 }

@@ -17,7 +17,6 @@ public class HiloInsertarTarjeta extends Thread{
 
     @Override
     public void run() {
-
         db.userDao().insertTarjeta(tarjeta);
     }
 }

@@ -22,19 +22,16 @@ public class HIloRecuperaTarjetaTitulo extends Thread{
     //Cargamos en los elementos list todos los objetos cargados dentro de la base de datos
     @Override
     public void run() {
-
         listaTarjetasBD = db.userDao().getAllTarjetas();
         listaTitulosBD = db.userDao().getAllTitulos();
     }
 
     //Generamos getters para recuperar los datos dentro del apartado de usuario y mostrarlos.
     public List<Tarjeta> getTarjetas(){
-
         return listaTarjetasBD;
     }
 
     public List<Titulo> getTitulos(){
-
         return listaTitulosBD;
     }
 }
